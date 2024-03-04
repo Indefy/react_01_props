@@ -10,9 +10,8 @@ export default function App() {
 				<h1>Hello React</h1>
 			</TopBar>
 
-			<Vacation availabe={false}/>
 			<h1 className="headline white-text">I am the main Application</h1>
-
+			<Vacation availabe={true}/>
 			<Card subject="people" action="greet" />
 			{/* <Card subject="friends" action="meet" something="value of sorts" /> */}
 		</div>
